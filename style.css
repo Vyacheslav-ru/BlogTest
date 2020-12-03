@@ -1,0 +1,384 @@
+.boss{
+  font-size: 14px;
+  line-height: 22px;
+  font-family: "Georgia", serif;
+  color: #222222;
+  background: url("img/bg-page.png") no-repeat top center, url("img/bg-page-1.png") no-repeat bottom center;
+  background-size: 800px;
+}
+
+html 
+body{
+  margin: 0 4px;
+  font-size: 14px;
+  font-family: "Georgia", serif;
+  color: #222222;
+  background:  url("img/bg-page.png") no-repeat top center;
+  background-size: 800px;
+}
+
+.child{
+  position: absolute;
+  float: left;
+  margin-top: -15px;
+  margin-left: 5em;
+}
+
+.child-1{
+  position: absolute;
+  float: left;
+  font-family: 'Dancing Script', cursive;
+  text-shadow: 1px 1px 2px grey;
+  margin-top: 60px;
+  margin-left: -40px;
+  transform: rotate(-60deg);
+  font-size: 35px;
+  font-weight: 800;
+  letter-spacing: 10px;
+  color: #6a2cce;
+}
+
+.textheader{
+  margin-left: 220px;
+}
+
+.all {
+  margin-left: 25em;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: normal;
+}
+
+.avatar {
+  border-radius: 50%;
+  vertical-align: baseline;
+}
+
+.avatar-container{
+  text-align: center;
+}
+
+.blog-navigation-1 {
+  margin-bottom: 30px;
+  margin-top: 1em;
+  padding: 20px;
+  max-width: 350px;
+  background-color: rgba(136, 177, 255, 0.7);
+  border: 5px double #4770bd;
+  border-radius: 30px;
+  color: #ffffff;
+  float: left;
+  margin-right: 2em;
+  position: absolute;
+  font-family: cursive;
+}
+
+.blog-navigation-1 h2 {
+  margin-top: 0;
+  text-align: center;
+  color: #854be2;
+}
+
+.blog-navigation-1 li {
+  margin-left: -30px;
+}
+
+.blog-navigation {
+  margin-top: -5px;
+  margin-left: 3em;
+  margin-bottom: 9px;
+  font-size: 17px;
+  font-family: cursive;
+  float: left;
+  width: 200px;
+  text-align: center;
+  padding: 4px;
+  background-color: rgba(136, 177, 255, 0.7);
+  border: 1px dotted #4770bd;
+  border-radius: 30px;
+  color: #854be2;
+}
+
+.blog-navigation a{
+  text-decoration: none;
+}
+
+
+.page-title{
+  font-size: 3em;
+  padding: 0em 5em;
+  text-align: center;
+  font-family: fantasy;
+  font-weight: 400;
+  letter-spacing: 20px;
+}
+
+.page-title a {
+  color: black;
+  text-decoration: none;
+}
+
+.daire {
+  margin: 0 200px;
+}
+
+.button{
+  float: right;
+  margin-right: 3em;
+  margin-top: -5px;
+  font-size: 17px;
+  font-family: cursive;
+  width: 200px;
+  text-align: center;
+  padding: 4px;
+  background-color: rgba(136, 177, 255, 0.7);
+  border: 1px dotted #4770bd;
+  border-radius: 30px;
+  color: #854be2;
+  outline-style: none;
+}
+
+.button:hover{
+  font-size: 25px;
+  font-weight: 600;
+  padding: 0px;
+  width: 200px;
+  height: 34px;
+  margin-right: 2.05em;
+  margin-top: -5px;
+}
+
+.button:focus{
+  background-color: rgba(204, 0, 255, 0.7);
+}
+
+main
+h1{
+  text-align: center;
+}
+
+.descrip{
+  max-width: 1000px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+/* ____________________________________________________↓_Навыки_↓_____________________________________________________*/
+.skill{
+  border: 5px double #bde0ff;
+  border-radius: 20px;
+  padding: 5px;
+  max-width: 60em;
+  margin: auto;
+}
+
+.skills dd {
+  background-color: #f4fbff;
+  margin: 0;
+  margin-bottom: 10px;
+  border: 2px solid #bde0ff;
+  border-radius: 20px;
+}
+
+.skills-level {
+  font-size: 12px;
+  margin: 1px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4470c4;
+  border-radius: 20px;
+}
+
+.skills-level-ok {
+  background-color: #47bb52;
+}
+/* ____________________________________________________↑_Навыки_↑_____________________________________________________*/
+
+pre,
+code {
+  font-family: "Courier New", "Courier", monospace;
+  color: #6a2cce;
+}
+
+pre {
+  line-height: normal;
+}
+
+blockquote {
+  padding-left: 14px;
+  border-left: 2px solid #6a2cce;
+
+  color: #6a2cce;
+}
+
+cite {
+  color: #222222;
+}
+
+time {
+  color: #6a2cce;
+}
+
+.danger-text {
+  color: #ff4400;
+}
+
+.danger-block {
+  padding: 5px 10px;
+  background-color: #ffd0bf;
+}
+
+.no-danger-block {
+  padding: 5px 10px;
+  background-color: #40e0d0;
+}
+
+.longList
+ol {
+  list-style: none;
+  counter-reset: li;
+}
+
+.longList
+li:before {
+  counter-increment: li;
+  content: counters(li,".") ". ";
+}
+
+.page-title-1{
+  font-size: 2.5em;
+  text-align: center;
+  font-family: fantasy;
+  font-weight: 400;
+}
+
+.partnership{
+  background-color: #4a87fa;
+  background-image: url("img/bg-partnership.svg");
+  opacity: 0.5;
+  color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  border-radius: 20px;
+  max-width: 900px;
+  margin: 0px auto;
+  margin-top: 1em;
+}
+
+del {
+  color: #ff4400;
+  text-decoration: none;
+}
+
+ins {
+  color: rgb(105, 178, 83);
+  text-decoration: none;
+}
+
+.underline{
+  text-decoration:underline;
+  text-decoration-style: dashed;
+}
+
+.line-through{
+  text-decoration: line-through;
+  text-decoration-style: wavy;
+}
+
+.overline{
+  text-decoration: overline;
+  text-decoration-style: double;
+}
+
+.text-1{
+  text-align: justify;
+}
+
+
+/* ____________________________________________________↓_HORSE_↓_____________________________________________________*/
+
+.horse {
+  /* border-collapse: collapse; */
+  margin-left: 300px;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	color: #FF0000;
+	font-size: 37px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	border-radius: 30%;
+}
+
+.horse
+td input {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+}
+
+[id^=c] + label {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+[id^=c] + label:before{
+    content: '♘';
+    display: inline-block;
+    color: #FF0000;
+    font-size: 100px;
+    transform: scale(0);
+    transition: 0.6s;
+    vertical-align: middle;
+    margin-top: -20px;
+    animation: my 0.5s infinite alternate;
+}
+
+@keyframes my {
+  0%   {color: #f9b3ff;}
+  25%  {color: #f29afa;}
+  50%  {color: #f36bff;}
+  75%  {color: #ef3aff;}
+  100% {color: #ea00ff;}
+}
+
+#c5 + label:before{
+  content: '♘';
+  border-radius: 30%;
+  display: inline-block;
+  transform: scale(0);
+  transition: 4s;
+  vertical-align: middle;
+}
+
+
+[id^=c]:checked + label:before{    
+    transform: scale(1);
+}
+#c5:checked + label:before{    
+    transform: scale(1);
+}
+
+/* ____________________________________________________↑_HORSE_↑_____________________________________________________*/
